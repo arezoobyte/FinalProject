@@ -1,0 +1,21 @@
+.pricingTop__title {
+    font-size: 34px;
+}
+.pricingTop__summary {
+    font-size: 12px;
+    line-height: 24px;
+}
+.pricing--btn {
+	margin-top: 140px;
+	margin-left: 20px;
+}
+.pricingBottom{
+    width: 80%;
+    padding: 70px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.pricingBottom__summary {
+    font-size: 13px;
+}

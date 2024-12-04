@@ -1,0 +1,71 @@
+.custombannerLeft__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .custombannerLeft__summary {
+    font-size: 18px;
+  }
+  .bannerImg{
+    margin-top: 30px;
+  }
+
+  .project__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .customoverlayItem__title {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .customoverlayItem__summary {
+    font-size: 11px;
+  }
+  .customoverlayItem {
+    height: 100%;
+    padding-top: 40px;
+  }
+  .customRightOverlay__title {
+    margin-top: 40px;
+  }
+  .customText__summary {
+    font-size: 16px;
+  }
+  .customLeft__title {
+    font-size: 17px;
+  }
+  .customClientsItems {
+    margin-left: 10px;
+  }
+  .customText__title {
+    font-size: 20px;
+    line-height: 8px;
+  }
+  .customheading {
+    font-size: 17px;
+  }
+  .accordion-body {
+    font-size: 12px;
+  }
+  .customOverlay__title {
+    font-size: 26px;
+  }
+  .customContactRight__summary {
+    font-size: 16px;
+  }
+  /* .inputBtn {
+    padding: 13px 40px 18px 30px;
+  } */
+  .inputBtn {
+    padding: 12px 10px 18px 30px;
+  }
+  .sendBtn {
+    padding: 15px 89px;
+  }
+  .touch--btn{
+    font-size: 16px;
+    display: block;
+  }
+  .cardItem__title {
+    font-size: 35px;
+  }

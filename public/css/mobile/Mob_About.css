@@ -1,0 +1,77 @@
+
+   /*  ========== who we are ============ */
+   .whoWeAreLeft__tag {
+    padding-left: 22px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .whoWeAreLeft__title {
+    font-size: 15px;
+  }
+  .whoWeAreLeft__details {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .whoWeAreRight__title {
+    font-size: 15px;
+  }
+  .whoWeAreRight__details {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  /*  ========== who we are ============ */
+  
+  /* =========== we follow ============= */
+  
+  .weFollow__title {
+    margin-top: -16px;
+    font-size: 17px;
+  }
+  .weFollow__circle {
+    top: -29px;
+    left: -6px;
+  }
+  .weFollow__circle::after {
+    width: 12dvw;
+  }
+  
+  /* =========== we follow ============= */
+  
+  /*  ========== our mission ============ */
+  
+  .ourMission__title {
+    font-size: 22px;
+  }
+  /*  ========== our mission ============ */
+  
+  /* ========= benefits of working ========== */
+  .benefitsTop__title {
+    font-size: 37px;
+  }
+  .benefitsMiddle__title {
+    font-size: 18px;
+    line-height: 16px;
+    margin: 12px 0 12px;
+  }
+  .benefitsMiddle__details {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .benefitsBottom {
+    margin-top: 30px;
+  }
+  .benefitsBottom__logo {
+    width: 82px;
+    height: 29px;
+  }
+  
+  .ourTeamBottom__name {
+    font-size: 22px;
+  }
+  #footer {
+    padding-top: 128px;
+    background-color: var(--clr_tint_blue);
+    color: white;
+}
+  

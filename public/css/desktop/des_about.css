@@ -1,0 +1,437 @@
+.navbar {
+    background-color: var(--clr_tint_blue) !important;
+    color: white;
+  }
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  .customBtnPrimary {
+    border-radius: 41px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 1rem 3rem;
+    transition: var(--trn_delay);
+  }
+  .customBtnPrimary:hover {
+    background-color: var(--clr_yellow) !important;
+    color: var(--clr_tint_blue) !important;
+  }
+  .--btnMod {
+    margin-left: 100px;
+  }
+  #navbar .active {
+    position: relative;
+  }
+  #navbar .active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: translateY(-7px);
+  }
+  .customNavLink {
+    position: relative;
+  }
+  .customNavLink:hover::before {
+    width: 100%;
+  }
+  .customNavLink::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transform: translateY(-7px);
+    transition: var(--trn_delay);
+  }
+  .--linkMod:hover {
+    color: var(--clr_tint_blue) !important;
+  }
+  
+  /* =======================================YOUR WORK STARTS FROM HERE========================================= */
+  
+  /* =================== our design  start =================== */
+  
+  #ourDesign{
+    padding: 128px 0;
+    background-color: #FFFFFF;
+  }
+  .ourDesign__tag{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 8px;
+  
+  }
+  .ourDesign__title{
+    max-width: 503px;
+    color: #282938;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    margin-bottom: 31px;
+  }
+  .ourDesign__details{
+    max-width: 484px;
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  
+  }
+  /* =================== our design end =================== */
+  
+  
+  /* =================== who we are =================== */
+  
+  #whoWeAre{
+    margin-bottom: 128px ;
+    padding-top: 80px;
+    background-color: #F4F5F5;
+  }
+  .whoWeAreLeft{
+    margin-bottom: 80px;
+  }
+  .whoWeAreLeft__tag{
+    color: #282938;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 4px;
+    padding-left: 59px;
+  }
+  .whoWeAreLeft__title{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 16px;
+  }
+  .whoWeAreLeft__details{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  
+  }
+  
+  .whoWeAreRight__title{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 16px;
+  }
+  .whoWeAreRight__details{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  
+  }
+  /* =================== who we are =================== */
+  
+  /* ============ we follow  start ============ */
+  
+  .weFollowTop__Title{
+    margin-bottom: 48px;
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+  
+  }
+  .weFollow__circle {
+    height: 24px;
+    width: 24px;
+    background-color: var(--clr_royal_blue);
+    border-radius: 50%;
+    top: -30px;
+    left: -10px;
+    position: relative;
+  }
+  .weFollow__circle::after {
+    content: "";
+    position: absolute;
+    width: 12dvw;
+    background-color: transparent;
+    height: 2px;
+    border: 1px dashed var(--clr_royal_blue);
+    left: 40px;
+    top: 12px;
+  }
+  
+  .weFollow__title{
+    margin-top: 10px;
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .weFollow__details{
+    margin-top: 8px;
+    max-width: 272px;
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  }
+  
+  /* ============ we follow  end ============ */
+  
+  
+  /* ============ our mission  start ============ */
+  #ourMission{
+    margin-top: 128px;
+    padding: 96px;
+    background-color: #EEF4FA;
+  }
+  .ourMission__tag{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .ourMission__title{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin: 16px 0;
+  }
+  .ourMission__details{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  }
+  /* ============ our mission  end ============ */
+  
+  
+  /* ============ our vision  start ============ */
+  #ourVision{
+    background-color: #EEF4FA;
+  }
+  .ourVision__tag{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .ourVision__title{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin: 16px 0;
+  }
+  .ourVision__details{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  }
+  /* ============ our vision  end ============ */
+  
+  
+  /* ============ benefits of working  start ============ */
+  #benefits{
+    background-color: #FFFFFF;
+    margin: 128px 0;
+  
+  }
+  .benefitsTop__title{
+    max-width: 630px;
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+  }
+  .benefitsMiddle{
+    background-color: #F4F6FC;
+    margin-top: 48px;
+    border: 1px solid #2405f2;
+    transition: var(--trn_delay);
+    padding: 48px 32px 48px 48px;
+  }
+  .benefitsMiddle:hover{
+    box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.62);
+  }
+  
+  .benefitsMiddle__icon{
+    font-size: 32px;
+    color: #2405f2;
+  }
+  .benefitsMiddle__title{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 26px 0 12px;
+  }
+  .benefitsMiddle__details{
+    max-width: 324px;
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  }
+  .benefitsBottom__count{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+  }
+  .benefitsBottom__tag{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+  }
+  .benefitsBottom{
+    margin-top: 48px;
+  
+  }
+  .benefitsBottom__logo{
+    width: 161px;
+    height: 32px;
+  
+  }
+  
+  /* ============ benefits of working  end ============ */
+  
+  /* ============ our taem start ============ */
+  #ourTeam{
+    background-color: #F4F6FC;
+    padding: 128px 0;
+  }
+  .ourTeamBottom{
+    width: 296px;
+    height: 344px;
+    background-color: #FFFFFF;
+    padding: 48px 64px 0 64px;
+  }
+  
+  .ourTeamTop__title{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 48px;
+  
+  }
+  .ourTeamBottom__name{
+    color: #1D2130;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    /* text-align: center; */
+  }
+  .ourTeamBottom__designation{
+    color: #1D2130;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .7;
+    text-align: center;
+  }
+  
+  /* ============ our taem  end ============ */
+  
+  
+  
+  
+  /* =================================!!! DONT MODIFY THE #FOOTER SECTION!!!========================================= */
+  /* ============footer section============== */
+  #footer {
+    padding-top: 128px;
+    background-color: var(--clr_tint_blue);
+    color: white;
+  }
+  #footer .logo img {
+    width: 176px;
+  }
+  .footerLeftBottom {
+    background-color: var(--clr_yellow);
+    color: var(--clr_dark_blue);
+  }
+  .footerLeft,
+  .footerRight {
+    height: 300px;
+  }
+  .footerRightSocials {
+    margin-bottom: 120px;
+  }
+  .footerRightSocials a {
+    color: white;
+    transition: var(--trn_delay);
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+  }
+  .footerRightSocials a:hover {
+    color: var(--clr_yellow);
+  }
+  .footernav {
+    background-color: white !important;
+    padding: 0 !important;
+  }
+  .footernav .navbar-toggler-icon {
+    filter: invert(0);
+  }
+  .bottomNavLinks {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .footernav a {
+    color: var(--clr_tint_blue) !important;
+  }
+  .footerCopyright {
+    color: var(--clr_tint_blue);
+  }
+  
+  /* ================= about us =================*/
+
+/*============ who we are ==========*/
+
+.whoWeAreRight__title {
+    font-size: 34px;
+    }
+    
+  .whoWeAreLeft__title {
+      font-size: 34px;
+  }
+  .whoWeAreLeft__tag {
+    padding-left: 52px;
+  }
+  /*============ who we are ==========*/
+  
+  /*============= we follow ==============*/
+  
+  .weFollowTop__Title {
+    margin-bottom: 79px;
+  }
+  /*============= we follow ==============*/
+  
+  
+  /*============ benefits of working ==========*/
+  .benefitsTop__title {
+    font-size: 46px;
+  }
+  /*============ benefits of working ==========*/
+  
+  /*============ meet our team ==========*/
+  
+  .ourTeamTop__title {
+    font-size: 46px;
+  }
