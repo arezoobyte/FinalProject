@@ -1,6 +1,6 @@
-@import "./Setting.css";
-@import "Desktop/Desktop.css" only screen and (min-width:992px);
-@import "Mobile/Mobile.css" only screen and (min-width:0);
+@import "./setting.css";
+@import "desktop/desktop.css" only screen and (min-width:992px);
+@import "mobile/mobile.css" only screen and (min-width:0);
 
 
 
